@@ -1,0 +1,17 @@
+replicaCount: 1
+containerPort: 5000
+
+APIKEY: "49e8b658e2e5837898fab7f99e3886cb85fe87dcd6f493df895ad6f63d52843f"
+
+image:
+  repository: balanus/exapp
+  tag: v1
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: NodePort
+  port: 80
