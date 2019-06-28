@@ -11,4 +11,4 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-      - weatherapp.139.59.221.23.nip.io
+      - weatherapp.139.59.216.235.nip.io

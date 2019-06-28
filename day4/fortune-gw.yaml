@@ -11,4 +11,4 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-      - fapp.139.59.221.23.nip.io
+      - fapp.139.59.216.235.nip.io
